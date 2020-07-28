@@ -1,0 +1,61 @@
+/* Roboto Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+/* Material Design */
+@import url("https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css");
+
+/* Google icons pack */
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+
+/* Navbar styles */
+@import "./navbar.css";
+
+/* Main section slyles */
+@import "./main.css";
+
+/* Aside section styles */
+@import "./aside.css";
+
+/* Worklog styles css */
+@import "./worklog.css";
+
+/* Calendar styles */
+@import "./calendar.css";
+
+/* List of day tracks styles */
+@import "./daytrack.css";
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: #f9fafc;
+  font-family: "Roboto";
+}
+
+.container {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: stretch;
+
+  margin-top: 4.8vh;
+  padding: 8px;
+}
+
+.divider {
+  border: 1px solid #e9ecf2;
+}
+
+.primary {
+  color: #3744bd;
+}
+
+a.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  color: inherit;
+}

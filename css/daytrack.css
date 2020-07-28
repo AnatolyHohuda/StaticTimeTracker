@@ -1,0 +1,12 @@
+.upload {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #3744bd;
+  background-color: #e9ecf2;
+  height: 38px;
+  width: 38px;
+  border: none;
+  border-radius: 100%;
+  padding: 0;
+}

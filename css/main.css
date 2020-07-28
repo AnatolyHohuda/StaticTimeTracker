@@ -1,0 +1,86 @@
+main {
+  flex: 1 1 67.5%;
+  display: flex;
+  flex-flow: column nowrap;
+  height: 86.7vh;
+  margin-left: 3.75vw;
+  margin-right: 3.5vw;
+}
+
+main section {
+  display: flex;
+}
+main section a {
+  text-decoration: none;
+}
+
+/* Date picker and preferable selection */
+
+.date-sort {
+  display: inline-flex;
+  margin-left: 1.25vw;
+  margin-right: 2.7vw;
+  justify-content: space-between;
+}
+
+.date-select {
+  display: flex;
+  justify-content: baseline;
+  align-items: center;
+
+  border: none;
+  border-radius: 30px;
+
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px !important;
+
+  padding: 16px 32px;
+  background-color: #f0f3f5;
+  color: #3744bd;
+
+  max-height: 58px;
+  max-width: 197px;
+}
+
+.calendar-icon {
+  color: inherit;
+  font-size: medium;
+  margin-left: auto;
+}
+
+main section .sort-list {
+  list-style: none;
+  display: inline-flex;
+  flex-flow: row nowrap;
+  margin: 0;
+}
+
+ul.sort-list li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 24.5px;
+  max-height: 47px;
+}
+
+ul.sort-list li a {
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  color: #bbbbbb;
+}
+
+.sort-selected {
+  border-radius: 30px;
+  background-color: #f0f3f5;
+}
+
+.sort-selected a {
+  color: #4f4f4f !important;
+}
+
+/* Tracklists for days styling */
+.tracklists {
+}

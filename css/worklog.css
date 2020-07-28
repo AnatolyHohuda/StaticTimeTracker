@@ -1,0 +1,33 @@
+.worklog {
+  flex: 1 1 auto;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.worklog a {
+  text-decoration: none;
+}
+
+.add-worklog {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  border-radius: 100%;
+  height: 66px;
+  width: 66px;
+  background-color: white;
+  box-shadow: 0px 7px 15px rgba(148, 156, 160, 0.13);
+}
+
+.underbutton {
+  margin: 0;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  color: #c4cacb;
+  font-variant: small-caps;
+}
