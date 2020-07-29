@@ -22,3 +22,8 @@
 .progress.fat {
   height: 6px;
 }
+
+.progress.inline {
+  margin-right: 50px;
+  width: 108px;
+}

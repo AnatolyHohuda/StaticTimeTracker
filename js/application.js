@@ -1,12 +1,14 @@
-const element = document.getElementById("progressBar1");
+const elements = [].slice.call(document.getElementsByClassName("determinate"));
 const values = [...Array(11).keys()].map((key) => key * 10);
 let i = 0;
 let isPaused = false;
 
-function changeBarSize(element) {
+function changeBarSize(elements) {
   if (isPaused) return;
 
-  // element.style.width = `${values[i]}`;
+  for (const element of elements) {
+    element.style.width = `${values[i]}%`;
+  }
 
   if (i === 11) {
     isPaused = true;
@@ -15,4 +17,4 @@ function changeBarSize(element) {
   } else i += 1;
 }
 
-setInterval(() => changeBarSize(element), 500);
+setInterval(() => changeBarSize(elements), 500);

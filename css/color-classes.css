@@ -1,11 +1,14 @@
 .yellow {
   background-color: #ffcc40 !important;
+  border-color: #ffcc40 !important;
 }
 
 .red {
   background-color: #e34040 !important;
+  border-color: #e34040 !important;
 }
 
 .blue {
   background-color: #62d2b1 !important;
+  border-color: #62d2b1 !important;
 }

@@ -54,6 +54,11 @@ body {
   border: 1px solid #e9ecf2;
 }
 
+.dashed-border {
+  border: dashed 1px #000;
+  padding: 20px;
+}
+
 .primary {
   color: #3744bd;
 }
