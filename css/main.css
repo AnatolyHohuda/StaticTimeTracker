@@ -3,23 +3,18 @@ main {
   display: flex;
   flex-flow: column nowrap;
   height: 86.7vh;
-  margin-left: 3.75vw;
-  margin-right: 3.5vw;
 }
 
 main section {
   display: flex;
-}
-main section a {
-  text-decoration: none;
 }
 
 /* Date picker and preferable selection */
 
 .date-sort {
   display: inline-flex;
-  margin-left: 1.25vw;
-  margin-right: 2.7vw;
+  padding-left: 5vw;
+  padding-right: 5.55vw;
   justify-content: space-between;
 }
 

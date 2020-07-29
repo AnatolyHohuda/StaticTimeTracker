@@ -1,4 +1,52 @@
+.day-track {
+  display: flex;
+  flex-flow: column nowrap;
+  padding-right: 6.2vw;
+  padding-left: 5vw;
+}
+
+.day-track header {
+  display: flex;
+  margin-top: 50px;
+}
+
+.day-track header h1 {
+  font-size: 24px;
+  font-weight: normal;
+  margin: 0 auto 0 0;
+  align-items: baseline;
+}
+
+.time-status {
+  justify-self: flex-end;
+
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.time {
+  font-weight: bold;
+  font-size: 24px;
+  color: #bbbbbb;
+  margin-bottom: 8px;
+  margin-top: 0;
+}
+
+.mdc-linear-progress__buffer {
+  border-radius: 5px;
+  background-color: #e9ecf2;
+}
+
+.mdc-linear-progress__bar-inner {
+  border-radius: 5px;
+  border-color: #ffcc40;
+}
+
+progress {
+  background-color: #e9ecf2;
+}
 .upload {
+  justify-self: end;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -9,4 +57,6 @@
   border: none;
   border-radius: 100%;
   padding: 0;
+  margin-left: 47px;
+  margin-top: -4px;
 }
