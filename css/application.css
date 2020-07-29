@@ -25,6 +25,12 @@
 /* List of day tracks styles */
 @import "./daytrack.css";
 
+/* Progress bar */
+@import "./progressbar.css";
+
+/* Classes with background colors */
+@import "./color-classes.css";
+
 * {
   box-sizing: border-box;
 }

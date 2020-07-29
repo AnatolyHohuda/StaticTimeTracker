@@ -1,16 +1,21 @@
-.day-track {
+.date-track {
   display: flex;
   flex-flow: column nowrap;
-  padding-right: 6.2vw;
-  padding-left: 5vw;
+  /* padding-right: 6.2vw;
+  padding-left: 5vw; */
+  margin-left: 3.75vw;
+  margin-right: 3.55vw;
 }
 
-.day-track header {
+.date-track header {
   display: flex;
   margin-top: 50px;
+  margin-right: 2.65vw;
+  margin-left: 1.25vw;
+  margin: 50px 2.65vw 1.25vw 25px;
 }
 
-.day-track header h1 {
+.date-track header h1 {
   font-size: 24px;
   font-weight: normal;
   margin: 0 auto 0 0;
@@ -24,7 +29,7 @@
   flex-flow: column nowrap;
 }
 
-.time {
+.time-large {
   font-weight: bold;
   font-size: 24px;
   color: #bbbbbb;
@@ -32,19 +37,9 @@
   margin-top: 0;
 }
 
-.mdc-linear-progress__buffer {
-  border-radius: 5px;
-  background-color: #e9ecf2;
+.time {
 }
 
-.mdc-linear-progress__bar-inner {
-  border-radius: 5px;
-  border-color: #ffcc40;
-}
-
-progress {
-  background-color: #e9ecf2;
-}
 .upload {
   justify-self: end;
   display: flex;

@@ -1,12 +1,12 @@
-const element = document.getElementById("statusBar1");
-const values = [...Array(11).keys()].map((key) => key / 10);
+const element = document.getElementById("progressBar1");
+const values = [...Array(11).keys()].map((key) => key * 10);
 let i = 0;
 let isPaused = false;
 
 function changeBarSize(element) {
   if (isPaused) return;
 
-  element.style.transform = `scaleX(${values[i]})`;
+  // element.style.width = `${values[i]}`;
 
   if (i === 11) {
     isPaused = true;

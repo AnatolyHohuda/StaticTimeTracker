@@ -13,8 +13,8 @@ main section {
 
 .date-sort {
   display: inline-flex;
-  padding-left: 5vw;
-  padding-right: 5.55vw;
+  margin-left: 5vw;
+  margin-right: 5.55vw;
   justify-content: space-between;
 }
 
