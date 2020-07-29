@@ -1,11 +1,11 @@
 .days::-webkit-scrollbar {
   width: 4px;
-  background-color: #bbbbbf;
+  background-color: #f9fafc;
 }
 
 .days::-webkit-scrollbar-track {
   border-style: none;
-  background-color: white;
+  background-color: #f9fafc;
 }
 
 .days::-webkit-scrollbar-thumb {
