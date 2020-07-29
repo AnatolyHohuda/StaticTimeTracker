@@ -31,6 +31,9 @@
 /* Classes with background colors */
 @import "./color-classes.css";
 
+/* Scrollbars */
+@import "./custom_scrollbar.css";
+
 * {
   box-sizing: border-box;
 }
@@ -54,9 +57,8 @@ body {
   border: 1px solid #e9ecf2;
 }
 
-.dashed-border {
-  border: dashed 1px #000;
-  padding: 20px;
+.dashed-divider {
+  border: dashed 1px #e9ecf2;
 }
 
 .primary {

@@ -1,3 +1,8 @@
+.days {
+  overflow-y: scroll;
+  height: 85vh;
+}
+
 .date-track {
   display: flex;
   flex-flow: column nowrap;

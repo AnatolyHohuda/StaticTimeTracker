@@ -1,4 +1,5 @@
 const elements = [].slice.call(document.getElementsByClassName("determinate"));
+const changingProgress = elements;
 const values = [...Array(11).keys()].map((key) => key * 10);
 let i = 0;
 let isPaused = false;
@@ -6,7 +7,7 @@ let isPaused = false;
 function changeBarSize(elements) {
   if (isPaused) return;
 
-  for (const element of elements) {
+  for (const element of changingProgress) {
     element.style.width = `${values[i]}%`;
   }
 
