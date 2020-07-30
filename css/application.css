@@ -49,12 +49,12 @@ body {
   flex-flow: row nowrap;
   align-items: stretch;
 
-  margin-top: 4.8vh;
-  padding: 8px;
+  margin-top: 4.5vh;
 }
 
 .divider {
   border: 1px solid #e9ecf2;
+  background-color: #e9ecf2;
 }
 
 .dashed-divider {

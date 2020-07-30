@@ -18,9 +18,9 @@ main section {
   justify-content: space-between;
 }
 
-.date-select {
+a.btn.date-select {
   display: flex;
-  justify-content: baseline;
+  justify-content: space-between;
   align-items: center;
 
   border: none;
@@ -34,8 +34,10 @@ main section {
   background-color: #f0f3f5;
   color: #3744bd;
 
-  max-height: 58px;
-  max-width: 197px;
+  height: 58px;
+  width: 197px;
+  /* max-height: 58px;
+  max-width: 197px; */
 }
 
 .calendar-icon {
@@ -51,31 +53,21 @@ main section .sort-list {
   margin: 0;
 }
 
-ul.sort-list li {
+.sort-list a {
+  text-decoration: none;
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 10px 24.5px;
   max-height: 47px;
-}
-
-ul.sort-list li a {
-  text-decoration: none;
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
   color: #bbbbbb;
 }
 
-.sort-selected {
+.sort-list a.sort-selected {
   border-radius: 30px;
   background-color: #f0f3f5;
-}
-
-.sort-selected a {
-  color: #4f4f4f !important;
-}
-
-/* Tracklists for days styling */
-.tracklists {
+  color: #4f4f4f;
 }

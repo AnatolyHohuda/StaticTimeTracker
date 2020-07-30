@@ -7,11 +7,7 @@
   height: 100%;
 }
 
-.worklog a {
-  text-decoration: none;
-}
-
-.add-worklog {
+a.btn.add-worklog {
   display: flex;
   justify-content: center;
   align-items: center;

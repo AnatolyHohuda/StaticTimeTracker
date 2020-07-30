@@ -28,7 +28,7 @@ aside section header {
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-between;
-  align-items: baseline;
+  /* align-items: baseline; */
 
   margin-left: 2vw;
   padding: 0 8px;
@@ -48,11 +48,10 @@ aside section.calendar > header {
   margin-top: 1.7vw;
 }
 
-.switch {
+a.switch {
   border: none;
   background-color: inherit;
   color: #c4cacb;
-  font-size: xx-large;
   padding: 0;
   margin: 0 8px;
   width: 10px;

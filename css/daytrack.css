@@ -88,7 +88,7 @@
   color: #c4cacb;
 }
 
-button.icon-button {
+a.icon-button {
   justify-self: end;
   display: flex;
   justify-content: center;
@@ -107,7 +107,7 @@ button.icon-button {
   margin-top: -4px;
 }
 
-.play {
+a.btn.play {
   color: #828282;
   margin-left: 47px;
   margin-top: -4px;
