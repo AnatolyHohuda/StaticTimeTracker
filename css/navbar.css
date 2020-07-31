@@ -1,4 +1,4 @@
-nav {
+.navbar {
   display: flex;
   position: static;
   /* align-items: baseline; */
@@ -15,7 +15,7 @@ nav {
   background-color: #3744bd;
 }
 
-nav ul {
+.nav-list {
   list-style: none;
   display: inline-flex;
   align-items: stretch;
@@ -23,15 +23,15 @@ nav ul {
   padding: 0;
 }
 
-nav ul.nav-links {
+.nav-links {
   margin: 0 0 0 4.1vw;
 }
 
-nav ul.nav-icons {
+.nav-icons {
   margin: 0 3.2vw 0 0;
 }
 
-nav ul li {
+.nav-list-item {
   display: flex;
   align-items: center;
 
@@ -40,15 +40,15 @@ nav ul li {
   border-bottom: 3px solid #3744bd;
 }
 
-nav ul.nav-links li + li {
+.nav-links li + li {
   margin-left: 2.5vw;
 }
 
-nav ul.nav-icons li + li {
+.nav-icons li + li {
   margin-left: 1.3vw;
 }
 
-nav li a {
+.nav-anchor {
   display: flex;
   align-items: center;
 
@@ -59,6 +59,6 @@ nav li a {
   color: white;
 }
 
-nav li.selected {
+.nav-selected {
   border-bottom: 3px solid white;
 }

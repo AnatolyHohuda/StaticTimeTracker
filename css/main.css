@@ -1,12 +1,8 @@
-main {
+.main {
   flex: 1 1 67.5%;
   display: flex;
   flex-flow: column nowrap;
   height: 86.7vh;
-}
-
-main section {
-  display: flex;
 }
 
 /* Date picker and preferable selection */
@@ -46,14 +42,14 @@ a.btn.date-select {
   margin-left: auto;
 }
 
-main section .sort-list {
+.sort-list {
   list-style: none;
   display: inline-flex;
   flex-flow: row nowrap;
   margin: 0;
 }
 
-.sort-list a {
+.sort-list-anchor {
   text-decoration: none;
   display: flex;
   justify-content: center;
@@ -66,7 +62,7 @@ main section .sort-list {
   color: #bbbbbb;
 }
 
-.sort-list a.sort-selected {
+.sort-selected {
   border-radius: 30px;
   background-color: #f0f3f5;
   color: #4f4f4f;

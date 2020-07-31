@@ -23,7 +23,7 @@
 @import "./calendar.css";
 
 /* List of day tracks styles */
-@import "./daytrack.css";
+@import "./datetrack.css";
 
 /* Progress bar */
 @import "./progressbar.css";

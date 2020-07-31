@@ -1,29 +1,29 @@
-aside {
+.aside {
   flex: 1 2 32.5%;
 
   display: flex;
   flex-flow: column nowrap;
 }
 
-aside section {
+.aside-section {
   flex: 1 1 auto;
 
   display: flex;
   flex-flow: column nowrap;
 }
 
-aside section.tracker {
+.tracker {
   flex: 1 1 100%;
   height: 33.4vh;
   min-height: 150px;
 }
 
-aside section.calendar {
+.calendar {
   flex: 3 1 100%;
   height: 53.3vh;
 }
 
-aside section header {
+.aside-header {
   flex: 1 1 auto;
   display: flex;
   flex-flow: row nowrap;
@@ -34,7 +34,7 @@ aside section header {
   padding: 0 8px;
 }
 
-aside section header h3 {
+.aside-title {
   display: inline-flex;
   font-style: normal;
   font-weight: bold;
@@ -44,7 +44,7 @@ aside section header h3 {
   padding: 0;
 }
 
-aside section.calendar > header {
+.aside-header.for-calendar {
   margin-top: 1.7vw;
 }
 

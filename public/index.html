@@ -11,26 +11,26 @@
   </head>
 
   <body>
-    <nav>
-      <ul class="nav-links">
-        <li class="selected"><a href="index.html">Home</a></li>
-        <li><a href="issues.html">Issues</a></li>
-        <li><a href="filter.html">Filter</a></li>
-        <li><a href="projects.html">Project</a></li>
+    <nav class="navbar">
+      <ul class="nav-list nav-links">
+        <li class="nav-list-item nav-selected"><a href="index.html"  class="nav-anchor">Home</a></li>
+        <li class="nav-list-item"><a href="issues.html" class="nav-anchor">Issues</a></li>
+        <li class="nav-list-item"><a href="filter.html" class="nav-anchor">Filter</a></li>
+        <li class="nav-list-item"><a href="projects.html" class="nav-anchor">Project</a></li>
       </ul>
 
-      <ul class="nav-icons">
-        <li>
-          <a href="#"><i class="material-icons">settings</i></a>
+      <ul class="nav-list nav-icons">
+        <li class="nav-list-item">
+          <a href="#" class="nav-anchor"><i class="material-icons">settings</i></a>
         </li>
-        <li>
-          <a href="#"><img src="../assets/icons/info.svg" alt="info"></a>
+        <li class="nav-list-item">
+          <a href="#" class="nav-anchor"><img src="../assets/icons/info.svg" alt="info"></a>
         </li>
-        <li>
-          <a href="#"><img src="../assets//icons//exit.svg" alt="logout"></a>
+        <li class="nav-list-item">
+          <a href="#" class="nav-anchor"><img src="../assets//icons//exit.svg" alt="logout"></a>
         </li>
-        <li>
-          <a href="#">
+        <li class="nav-list-item">
+          <a href="#" class="nav-anchor">
             <img src="../assets/avatarwoman-icon.png" alt="Your avatar"/>
           </a>
         </li>
@@ -38,7 +38,7 @@
     </nav>
 
     <div class="container">
-      <main>
+      <main class="main">
         <section class="date-sort">
           <a href="#" class="btn date-select">
             <span class="mdc-typography--button">
@@ -48,15 +48,15 @@
           </a>
 
           <div class="sort-list">
-            <a href="#" class="sort-selected">All</a>
-            <a href="#" >Favorites</a>
+            <a href="#" class="sort-list-anchor sort-selected">All</a>
+            <a href="#" class="sort-list-anchor">Favorites</a>
           </div>
         </section>
 
         <div class="days">
           <section class="date-track">
-            <header>
-              <h1><b>Wed</b>, June 10</h1>
+            <header class="date-track-header">
+              <h1 class="date-track-title"><b>Wed</b>, June 10</h1>
   
               <div class="time-status">
                 <div class="grey-text large">06:05:00</div>
@@ -293,10 +293,10 @@
 
       <div class="divider"></div>
 
-      <aside>
-        <section class="tracker">
-          <header>
-            <h3>Time tracking</h3>
+      <aside class="aside">
+        <section class="aside-section tracker">
+          <header class="aside-header">
+            <h3 class="aside-title">Time tracking</h3>
             <a href="" class="secondary">
               <i class="material-icons">more_horiz</i>
             </a>
@@ -311,9 +311,9 @@
 
         <div class="divider"></div>
 
-        <section class="calendar">
-          <header>
-            <h3>
+        <section class=" aside-section calendar">
+          <header class="aside-header for-calendar">
+            <h3 class="aside-title ">
               Google calendar sync
                 <a href="#" class="secondary switch">
                   <img src="../assets/icons/switch unactive.svg" alt="turn on">
