@@ -10,12 +10,12 @@
   margin-right: 3.55vw;
 }
 
-.date-track header {
+.date-track-header {
   display: flex;
   margin: 50px 2.65vw 25px 1.25vw;
 }
 
-.date-track header h1 {
+.date-track-title {
   font-size: 24px;
   font-weight: normal;
   margin: 0 auto 0 0;
